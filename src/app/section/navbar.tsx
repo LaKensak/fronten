@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {useRouter} from "next/navigation";
-// @ts-ignore
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 import Cookies from "js-cookie";
 
 const NavBar = () => {

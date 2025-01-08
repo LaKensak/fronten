@@ -5,7 +5,8 @@ import { useRouter } from 'next/navigation';
 import NavBar from '@/app/section/navbar';
 import Footer from '@/app/section/footer';
 import { Card, CardHeader, CardContent, CardFooter } from '@/components/ui/card';
-// @ts-ignore
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 import Cookies from 'js-cookie';
 
 const LoginPage = () => {

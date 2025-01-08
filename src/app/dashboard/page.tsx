@@ -5,7 +5,8 @@ import { useRouter } from "next/navigation";
 import NavBar from "@/app/section/navbar";
 import dynamic from "next/dynamic";
 const SettingsPage = dynamic(() => import("@/app/dashboard/settings/page"));
-// @ts-ignore
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 import Cookies from "js-cookie";
 import PaymentsPage from "@/app/dashboard/payments/page";
 

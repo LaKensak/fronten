@@ -3,7 +3,8 @@
 import React, {useEffect, useState} from 'react';
 import {loadStripe} from '@stripe/stripe-js';
 import {jwtDecode} from 'jwt-decode';
-// @ts-ignore
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 import Cookies from "js-cookie";
 import {CardElement, Elements, useElements, useStripe} from '@stripe/react-stripe-js';
 import {useRouter, useSearchParams} from 'next/navigation';

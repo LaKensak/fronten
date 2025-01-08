@@ -5,7 +5,8 @@ import {useRouter} from 'next/navigation';
 import {Card, CardHeader, CardContent, CardFooter} from '@/components/ui/card';
 import {Clock, Euro, Video, Users} from 'lucide-react';
 
-// @ts-ignore
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 import Cookies from "js-cookie";
 
 interface Session {
